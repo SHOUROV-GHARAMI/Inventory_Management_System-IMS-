@@ -1,0 +1,101 @@
+# Laravel
+/vendor
+/node_modules
+/public/hot
+/public/storage
+/public/build
+/storage/*.key
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+auth.json
+
+# PHP
+composer.phar
+composer.lock
+package-lock.json
+*.log
+
+# Storage & Cache
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/app/public/*
+/bootstrap/cache/*
+!storage/.gitkeep
+!storage/app/.gitkeep
+!storage/app/public/.gitkeep
+!storage/framework/.gitkeep
+!storage/framework/cache/.gitkeep
+!storage/framework/sessions/.gitkeep
+!storage/framework/testing/.gitkeep
+!storage/framework/views/.gitkeep
+!storage/logs/.gitkeep
+
+# IDEs
+/.idea
+/.vscode
+/.fleet
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Testing
+/.phpunit.cache
+phpunit.xml
+/tests
+/coverage
+
+# Build & Dependencies
+/public/css
+/public/js
+/public/mix-manifest.json
+
+# Backup & Temp Files
+*.sql
+*.sqlite
+*.db
+*.bak
+*.tmp
+*~
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Documentation (keep only PROJECT-OVERVIEW.md)
+README-old.md
+DOCS-*.md
+
+# Personal Scripts
+create-*.php
+test-*.php
+setup-*.php
+
+# Sensitive Data
+*.pem
+*.key
+*.cert
+*.crt
+backup/
+exports/
+imports/
+
+# Production Only
+/public/.htaccess.production
+/public/web.config
